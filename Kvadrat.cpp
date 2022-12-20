@@ -19,10 +19,10 @@ void Kvadrat::ispis(ostream& izlaz)
 
 void Kvadrat::unos(istream& ulaz)
 {
-	//ifstream ulaz("Kvadrat Unos.txt");
 	ulaz >> stranica;
 }
 
 Kvadrat::~Kvadrat()
 {
+	
 }
