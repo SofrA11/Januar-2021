@@ -17,8 +17,8 @@ public:
     }
     double povrsina();
     double obim();
-    ~Pravougaonik();
    void ispis(ostream& izlaz);
    void unos(istream& ulaz);
+     ~Pravougaonik();
 };
 
