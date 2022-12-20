@@ -29,7 +29,6 @@ Figura::~Figura()
 ostream& operator<<(ostream& izlaz, Figura& F)
 {
 	F.ispis(izlaz);
-	//izlaz << F.getX()<< F.getY();
 	return izlaz;
 }
 
