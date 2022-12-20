@@ -22,10 +22,6 @@ double Figura::getY()
 	return y;
 }
 
-Figura::~Figura()
-{
-}
-
 ostream& operator<<(ostream& izlaz, Figura& F)
 {
 	F.ispis(izlaz);
@@ -36,4 +32,9 @@ istream& operator>>(istream& ulaz, Figura& F)
 {
 	F.unos(ulaz);
 	return ulaz;
+}
+
+Figura::~Figura()
+{
+	
 }
