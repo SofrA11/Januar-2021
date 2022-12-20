@@ -29,7 +29,7 @@ Figura::~Figura()
 ostream& operator<<(ostream& izlaz, Figura& F)
 {
 	F.ispis(izlaz);
-	return izlaz;
+	return izlaz; 
 }
 
 istream& operator>>(istream& ulaz, Figura& F)
